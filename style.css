@@ -1,0 +1,32 @@
+.outer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border: 1.2px solid black;
+  margin: .5rem;
+}
+
+.inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 530;
+}
+.inner:hover{
+  background-color: rgb(165, 201, 235);
+  border: 1.4px solid black;
+}
+
+
+@media (max-width: 360px){
+  .inner a{
+    font-size: 1.3rem;
+  }
+}
